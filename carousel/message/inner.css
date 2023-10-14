@@ -1,0 +1,74 @@
+.container {
+    background: linear-gradient(-45deg, #7d233e, #ccabad, #320138);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s linear infinite; 
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    /* color: #fff; */
+    border: none;
+}
+h4{
+    color: #c01b6e;
+}
+p
+{
+    color: #c9cece;
+    font-size: large;
+}
+.collapsible-header {
+    /* * Set border radius for the subsection headers */ 
+    border: none;
+    background: linear-gradient(45deg, #7d233e, #ccabad, #320138);
+    background-size: 200% 400%;
+    animation: gradientAnimation 10s linear infinite; 
+    /* border-radius: 20px; */
+    padding: 20px;
+    text-align: center;
+    /* color: #fff; */
+    border: none;
+}
+
+.collapsible-body {
+    border-radius: 20px; /* Set border radius for the subsection bodies */
+    border: none;
+    background: linear-gradient(45deg, #000000, #10140fc0, #202420);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s linear infinite; 
+    /* border-radius: 20px; */
+    padding: 20px;
+    text-align: center;
+    /* color: #fff; */
+    border: none;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+body{
+
+        background: linear-gradient(-45deg, #7d233e, #ccabad, #320138);
+        background-size: 400% 400%;
+        animation: gradientAnimation 10s linear infinite;
+        border: none;
+}
+
+img{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+video{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
